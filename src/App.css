@@ -60,7 +60,6 @@ body{
   left:20px;
   background-color:	#787878;
   border:none;
-  
 }
 .btnSymbol{
   color:#ffa500;
@@ -68,9 +67,6 @@ body{
 }
 
 /*Animation and other related CSS*/
-.openBtn:hover {
-  background-color:		#303030;
-}
-.btnSymbol:hover{
-  background-color: red;
+.openBtn:hover{
+  background-color: black;
 }

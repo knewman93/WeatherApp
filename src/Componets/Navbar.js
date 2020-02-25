@@ -5,7 +5,7 @@ function Navbar (){
     return(
     <div className="navBar">
         <input type="text" id="location" name="location"></input>
-
+        
     </div>
     );
 }

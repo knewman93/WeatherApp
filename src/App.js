@@ -4,11 +4,12 @@ import Navbar from './Componets/Navbar';
 import NavBarButton from  './Componets/NavBarButton';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar/>
       <NavBarButton/>
+      <button>Hello</button>
     </div>
   );
 }
