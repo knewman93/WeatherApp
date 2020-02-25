@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.inputField{
+  font-size: 7px;  
+  height:100%;
+  width: 200px;
+  top:0;
+  left:0;
+  background-color: #111;
+  position: fixed;
+  z-index:1;
+}
+
+.inputField h1{
+  color: #818181;
+}
+
+.inputField button{
+  padding:9px;
+  top:0;
+}
