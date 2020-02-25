@@ -44,7 +44,6 @@ body{
 .navBar{
   height: 100px;
   width: 100%;
-  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -52,14 +51,15 @@ body{
   overflow-x: hidden;
   padding-top: 20px;
   opacity: 0;
+  display:none;
 }
 .openBtn{
   padding: 10px 15px;
   font-size:20px;
-  text-align: none;
   left:20px;
   background-color:	#787878;
   border:none;
+  display:"";
 }
 .btnSymbol{
   color:#ffa500;

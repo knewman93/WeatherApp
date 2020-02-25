@@ -2,13 +2,22 @@
 
 
 import React from 'react';
+console.log("Hey");
 
-function NavBarButton (){
-    return(
-        <div>
-            <button className="openBtn"> <div className="btnSymbol">&#9925;</div></button>
-        </div>
-    );
+class  NavBarButton extends React.Component{
+    tasker =(value)=>{
+        console.log(value);
+    }
+  
+    render(){
+        
+        return(
+            <div>
+                <button className="openBtn" onClick={() => this.tasker("I did it!!")}> <div className="btnSymbol">&#9925;</div></button>
+            </div>
+        );
+    }
+  
 }
 
 export default NavBarButton; 
